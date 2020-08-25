@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	cursor: url("../imgs/m1.png"), auto;
+	
+}
+body{
+	background-color: #bbb;
+}
+.container{
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	border: 5px solid gray;
+	box-shadow: 20px 20px 5px #555;
+	background-color: #FFF;
+	cursor: url("../imgs/m1.png"), auto;
+	min-height: 511.69px;
+}
+.quest{
+	border-bottom: 5px solid gray;
+	padding: 7px 15px;
+	color: #FFF;
+	cursor: url("../imgs/m1.png"), auto;
+	min-height: 101px;
+}
+#aswer{
+	overflow: hidden;
+	background-color: #eee;
+	font-size: 30px;
+	border-bottom: 5px solid gray;
+	cursor: url("../imgs/m1.png"), auto;
+}
+.cau_1,.cau_2,.cau_3,.cau_4,.cau_5{
+	padding: 15px 20px;
+	border-bottom: 1px solid gray;
+	margin: 0;
+	cursor: url("../imgs/m2.png"), auto;
+	min-height: 59px;
+}
+.cau_1:hover,.cau_2:hover,.cau_3:hover,.cau_4:hover{
+	background-color: #ccc;
+}
+.quest_all{
+	display: none;
+}
+.col-md-4,.col-md-10,.col-md-2{
+	padding: 0;
+}
+.col-md-10{
+	background-color: #333;
+	border-right: 5px solid gray;
+
+}
+.col-md-6{
+	text-align: center;
+	padding: 0;
+}
+.kq_class{
+	padding: 5px;
+}
+.x{
+	position: relative;
+}
+#ok,#next,#end{
+	width: 100%;
+	height: 100px;
+	font-size: 30px;
+	font-weight: bold;
+	transition: .5s;
+}
+#ok{
+	cursor: url("../imgs/m2.png"), auto;
+}
+#end{
+	cursor: url("../imgs/m2.png"), auto;
+}
+#next{
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	cursor: url("../imgs/m2.png"), auto;
+}
+#ok:hover,#next:hover,#end:hover{
+	box-shadow: inset 0 0 0 100px #333;
+	color: #FFF;
+}
+
+.traloi1,.traloi2,.traloi3,.traloi4,.traloi5 {
+	display: none;
+}
+#dapan_1,#dapan_2,#dapan_3,#dapan_4,#dapan_5{
+	display: none;
+}
+.diem div{
+	width: 100%;
+	height: 100px;
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+	cursor: url("../imgs/m1.png"), auto;
+	padding: 17px;
+}
+.het{
+	min-height: 402px;
+	text-align: center;
+	font-size: 100px;
+	color: #FFF;
+	padding: 100px;
+}
+.his{
+	cursor: url("../imgs/m2.png"), auto;
+}
+.his:hover{
+	transform: scale(1.2)
+}
